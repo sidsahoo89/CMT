@@ -1,5 +1,7 @@
 public class ChatterAnswers {
-    public String createAccount(String firstname, String lastname, Id siteAdminId) {
+// 2nd line commit    
+
+public String createAccount(String firstname, String lastname, Id siteAdminId) {
          Account a = new Account(name = firstname + ' ' + lastname, ownerId = siteAdminId);
          insert a;
          return a.Id;
